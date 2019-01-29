@@ -38,3 +38,9 @@ type Props = {
     onClick: () => Void
 }
 
+// Cindy
+type Props = {
+    size: "SMALL" | "MEDIUM" | "LARGE",
+    color: 'PRIMARY' | 'CANCEL' | 'INFO' | 'DEFAULT' ,
+    style: Object
+}
